@@ -108,7 +108,7 @@ gsettings=["gsettings set org.gnome.desktop.background show-desktop-icons false"
            'file://%s/Pictures/gnome/Dark_Ivy.jpg' "%home,\
            "gsettings set org.gnome.desktop.screensaver picture-uri \
            'file://%s/Pictures/gnome/Blinds.jpg' "%home,\
-           "gsettings set org.gnome.desktop.interface icon-theme 'Gmac-icons' ",\
+           "gsettings set org.gnome.desktop.interface icon-theme 'Paper' ",\
            "gsettings set org.gnome.shell.extensions.user-theme name 'Gmac-Shell' ",\
            "gsettings set org.gnome.nautilus.preferences sort-directories-first true",\
            "gsettings set org.gnome.nautilus.preferences executable-text-activation ask",\
@@ -212,7 +212,7 @@ fmac_themes()
 
 
 def fmac_icons():
-    icons=["Gmac-icons","Gmac-Cursor","logo-top.png"]
+    icons=["Gmac-icons","Gmac-Cursor","logo-top.png","Paper"]
     for i in icons:
     	subprocess.call("cp -r %s/%s   %s/.icons"%(dirname,i,home),shell=True)
 
