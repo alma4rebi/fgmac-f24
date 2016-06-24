@@ -1,0 +1,14 @@
+<schemalist gettext-domain="favorites">
+  <schema id="org.gnome.shell.extensions.favorites" path="/org/gnome/shell/extensions/favorites/">
+    <key name="icon" type="b">
+      <default>false</default>
+      <summary>Whether panel item to be represented by an icon</summary>
+      <description>If true, the panel item is represented on the panel by an icon, otherwise by text.</description>
+    </key>
+    <key name="position" type="i">
+      <default>2</default>
+      <summary>Position on panel</summary>
+      <description>Specifies the position of the panel item on the panel.</description>
+    </key>
+  </schema>
+</schemalist>

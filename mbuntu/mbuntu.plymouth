@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=mbuntu
+Description=mbuntu boot screen
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mbuntu
+ScriptFile=/usr/share/plymouth/themes/mbuntu/mbuntu.script
+

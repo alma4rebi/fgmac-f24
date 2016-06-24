@@ -1,0 +1,18 @@
+This gnome shell extension for gnome-3.10, 3.12, 3.14, 3.16, 3.18 and
+3.20 provides a favorites menu for the gnome panel.  It provides an
+alternative to using the shell Overview in order to access the
+favorites' dash, and also has a slightly different behavior, namely
+that if a particular program is already running, restarting it through
+the extension will call up another instance rather than bringing up
+the already-running instance.
+
+The panel menu mirrors the Overview dash.  If items are added to or
+removed from the dash via the Overview, then they will automatically
+be added to or removed from the extension's panel menu.
+
+The extension has selectable preferences, enabling the panel entry to
+be represented by text or an icon and its position on the panel to be
+chosen.  Preferences can be set from the gnome-shell-extension-prefs
+utility (say via gnome-tweak-tool), or by directly accessing GSettings
+via, say, dconf-editor (where the settings are at
+org->gnome->shell->extensions->favorites).
