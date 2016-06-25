@@ -165,7 +165,7 @@ make_folders()
 
 
 def install_packs():
-    check=subprocess.call("sudo dnf install  -y -C --best  gnome-shell-extension-user-theme \
+    check=subprocess.call("sudo dnf install  -y  --best  gnome-shell-extension-user-theme \
                     gnome-shell-extension-places-menu dconf plymouth-plugin-script  GConf2 gnome-tweak-tool \
                     gnome-shell-extension-apps-menu powerline plank gnome-terminal-nautilus ",shell=True)
     if check!=0:
