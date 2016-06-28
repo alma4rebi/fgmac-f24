@@ -47,7 +47,7 @@ def init_check():
 
 
     if not sys.version.startswith("3"):
-        sys.exit("Use Python 3 Try run python3 fmac.py")
+        sys.exit("Use Python 3 Try run python3 fgmac-f24.py")
 
 
     if os.getenv("XDG_CURRENT_DESKTOP")!="GNOME" :
